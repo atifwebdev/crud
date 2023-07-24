@@ -8,7 +8,7 @@ const app = express();
 // get request from localhost/3000
 app.get("/", (req, res) =>{
     console.log("🚀 ~ file: server.mjs:7 ~ app.get ~ req:");
-    res.send({ message: "Hello World! by Ahmed" });
+    res.send({ message: "Hello World! by Atif1" });
 });
 
 // passing params
