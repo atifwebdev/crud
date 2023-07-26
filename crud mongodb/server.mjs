@@ -5,7 +5,7 @@ import { MongoClient } from "mongodb";
 
 import './config/index.mjs';
 
-const mongodbURI = `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@cluster0.1aqvjbu.mongodb.net/?retryWrites=true&w=majority`
+const mongodbURI = `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@cluster0.1aqvjbu.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(mongodbURI);
 const database = client.db('crudpractice');
 const productsCollection = database.collection('products');
