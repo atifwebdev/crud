@@ -9,6 +9,10 @@
         {
           "src": "/(.*)",
           "dest": "server.mjs"
-        }
+        },
+        {
+            "src": "/(.*)/product",
+            "dest": "server.mjs"
+          }
     ]
   }
