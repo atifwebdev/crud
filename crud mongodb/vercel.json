@@ -7,12 +7,12 @@
     ],
     "routes": [
         {
-          "src": "/(.*)",
+          "src": "/",
           "dest": "server.mjs"
         },
         {
-            "src": "/(.*)product",
+            "src": "/product",
             "dest": "server.mjs"
-          }
+        }
     ]
   }
